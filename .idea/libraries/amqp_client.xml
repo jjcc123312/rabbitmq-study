@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="amqp-client">
+    <ANNOTATIONS>
+      <root url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/amqp-client" />
+      <root url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/http-client" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/amqp-client" />
+      <root url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/http-client" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/amqp-client" />
+      <root url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/http-client" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/amqp-client" />
+      <root url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/http-client" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/amqp-client" />
+      <root url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/http-client" />
+    </SOURCES>
+    <jarDirectory url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/amqp-client" recursive="false" />
+    <jarDirectory url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/http-client" recursive="false" />
+    <jarDirectory url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/amqp-client" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://F:/apache-maven-3.6.2/repository-springcloud/com/rabbitmq/http-client" recursive="false" type="SOURCES" />
+  </library>
+</component>

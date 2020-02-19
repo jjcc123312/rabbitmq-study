@@ -18,6 +18,13 @@
     <name>rabbitmq-study</name>
     <description>Demo project for Spring Boot</description>
 
-
+    <dependencies>
+        <!-- 引入 RabbitMQ 客户端依赖 -->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.7.3</version>
+        </dependency>
+    </dependencies>
 
 </project>
