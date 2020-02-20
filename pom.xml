@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>rabbitmq-native-demo</module>
+        <module>rabbitmq-basic-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -18,13 +19,19 @@
     <name>rabbitmq-study</name>
     <description>Demo project for Spring Boot</description>
 
-    <dependencies>
-        <!-- 引入 RabbitMQ 客户端依赖 -->
-        <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>5.7.3</version>
-        </dependency>
-    </dependencies>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

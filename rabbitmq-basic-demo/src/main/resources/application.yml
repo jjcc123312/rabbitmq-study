@@ -1,0 +1,8 @@
+spring:
+  # RabbitMQ\u914D\u7F6E\u9879\uFF0C\u5BF9\u5E94RabbitProperties\u914D\u7F6E\u7C7B
+  rabbitmq:
+    host: localhost     # rabbitmq\u7684\u670D\u52A1\u5730\u5740
+    port: 5672          # \u670D\u52A1\u7AEF\u53E3
+    username: guest     # rabbitmq\u7684\u767B\u9646\u8D26\u53F7
+    password: guest     # \u767B\u9646\u6469\u767B
+
