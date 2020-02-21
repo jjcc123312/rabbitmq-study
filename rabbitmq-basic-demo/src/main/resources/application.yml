@@ -1,8 +1,10 @@
 spring:
-  # RabbitMQ\u914D\u7F6E\u9879\uFF0C\u5BF9\u5E94RabbitProperties\u914D\u7F6E\u7C7B
+  # RabbitMQ配置项，对应RabbitProperties配置类
   rabbitmq:
-    host: localhost     # rabbitmq\u7684\u670D\u52A1\u5730\u5740
-    port: 5672          # \u670D\u52A1\u7AEF\u53E3
-    username: guest     # rabbitmq\u7684\u767B\u9646\u8D26\u53F7
-    password: guest     # \u767B\u9646\u6469\u767B
-
+    host: localhost     # rabbitmq的服务地址
+    port: 5672          # 服务端口
+    username: guest     # rabbitmq的登陆账号
+    password: guest     # 登陆密码
+    listener:
+      simple:
+        prefetch: 1     # 设置预读取数，消费端消费完特定数目消息后消费端才能拿取消息，此配置用于保证公平转发；是全局的。

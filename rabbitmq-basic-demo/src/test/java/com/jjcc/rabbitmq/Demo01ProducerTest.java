@@ -30,11 +30,15 @@ public class Demo01ProducerTest {
     @Test
     public void testSyncSend() throws InterruptedException {
         int id = (int) (System.currentTimeMillis() / 1000);
-        producer.syncSend(id);
-        log.info("[testSyncSend][发送编号：[{}] 发送成功]", id);
+        for (int i = 0; i < 10; i++) {
+
+            producer.syncSend(id);
+            log.info("[testSyncSend][发送编号：[{}] 发送成功]", id);
+        }
+
 
         // 阻塞当前线程，直到CountDownLatch归0或超时
-        new CountDownLatch(1).await(5L, TimeUnit.SECONDS);
+        new CountDownLatch(1).await();
     }
 
     @Test
