@@ -1,6 +1,6 @@
-package com.jjcc.rabbitmq.consumer;
+package com.jjcc.rabbitmq.basicdemo.consumer;
 
-import com.jjcc.rabbitmq.message.Demo01Message;
+import com.jjcc.rabbitmq.basicdemo.message.Demo01Message;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

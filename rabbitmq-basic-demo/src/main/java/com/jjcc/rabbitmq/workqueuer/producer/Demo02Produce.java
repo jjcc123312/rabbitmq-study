@@ -1,10 +1,8 @@
 package com.jjcc.rabbitmq.workqueuer.producer;
 
-import com.jjcc.rabbitmq.message.Demo01Message;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
 import java.util.concurrent.atomic.AtomicInteger;

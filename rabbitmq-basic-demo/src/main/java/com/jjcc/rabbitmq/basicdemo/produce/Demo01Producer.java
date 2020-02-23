@@ -1,6 +1,6 @@
-package com.jjcc.rabbitmq.produce;
+package com.jjcc.rabbitmq.basicdemo.produce;
 
-import com.jjcc.rabbitmq.message.Demo01Message;
+import com.jjcc.rabbitmq.basicdemo.message.Demo01Message;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
@@ -46,6 +46,8 @@ public class Demo01Producer {
     /**
      * 调用 RabbitTemplate 的同步发送消息方法。
      * convertAndSend()：将Java对象转换为Amqp消息并将其发送到具有特定路由键的默认交换器。
+     * 这里发送消息使用的是空字符串名的 默认交换器 ""；
+     * convertAndSend()方法的第一个参数是指定路由键，注意：所有队列都会绑定到默认交换器上。
      * @title syncSendDefault
      * @author Jjcc
      * @param id

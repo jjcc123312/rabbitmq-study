@@ -1,4 +1,4 @@
-package com.jjcc.rabbitmq.message;
+package com.jjcc.rabbitmq.basicdemo.message;
 
 import lombok.Data;
 

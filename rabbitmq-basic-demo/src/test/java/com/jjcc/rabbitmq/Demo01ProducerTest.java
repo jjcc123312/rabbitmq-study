@@ -1,6 +1,6 @@
 package com.jjcc.rabbitmq;
 
-import com.jjcc.rabbitmq.produce.Demo01Producer;
+import com.jjcc.rabbitmq.basicdemo.produce.Demo01Producer;
 import lombok.extern.log4j.Log4j2;
 import org.junit.Test;
 import org.junit.runner.RunWith;

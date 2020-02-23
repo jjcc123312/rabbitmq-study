@@ -1,6 +1,6 @@
-package com.jjcc.rabbitmq.config;
+package com.jjcc.rabbitmq.basicdemo.config;
 
-import com.jjcc.rabbitmq.message.Demo01Message;
+import com.jjcc.rabbitmq.basicdemo.message.Demo01Message;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.DirectExchange;
