@@ -50,6 +50,7 @@ public class RabbitWorkQueueConfig {
 
     /**
      * 创建一个消息侦听器容器。
+     * 用于管理 RabbitMQ监听器listener 的容器工厂
      * @title prefetchOneRabbitListenerContainerFactory
      * @author Jjcc
      * @param rabbitConnectionFactory 消息组件连接工厂
