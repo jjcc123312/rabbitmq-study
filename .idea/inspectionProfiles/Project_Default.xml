@@ -30,7 +30,7 @@
       <option name="IGNORE_JAVADOC_PERIOD" value="true" />
       <option name="IGNORE_DUPLICATED_THROWS" value="false" />
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
-      <option name="myAdditionalJavadocTags" value="date,title,createTime,return,description,className,EnableAsync,RabbitListener,author,RabbitListener也可用于方法之上。" />
+      <option name="myAdditionalJavadocTags" value="date,title,createTime,return,description,className,EnableAsync,RabbitListener,author,RabbitListener也可用于方法之上。,EnableRabbit：开启基于注解的rabbitmq" />
     </inspection_tool>
   </profile>
 </component>

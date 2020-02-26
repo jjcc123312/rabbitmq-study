@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rabbitmq-native-demo" />
+        <module name="rabbitmq-batch-demo" />
         <module name="rabbitmq-basic-demo" />
+        <module name="rabbitmq-native-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="projects" target="1.5" />
       <module name="rabbitmq-basic-demo" target="1.8" />
+      <module name="rabbitmq-batch-demo" target="1.8" />
       <module name="rabbitmq-native-demo" target="1.8" />
       <module name="rabbitmq-study" target="1.8" />
       <module name="rabbitmqnativedemo" target="1.8" />
@@ -21,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="rabbitmq-basic-demo" options="-parameters" />
+      <module name="rabbitmq-batch-demo" options="-parameters" />
       <module name="rabbitmq-native-demo" options="" />
       <module name="rabbitmq-study" options="" />
       <module name="rabbitmqnativedemo" options="-parameters" />
