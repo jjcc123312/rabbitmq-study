@@ -9,6 +9,7 @@
         <module>rabbitmq-batch-consumer-demo</module>
         <module>rabbitmq-batch-demo</module>
         <module>rabbitmq-batch-consumer-demo02</module>
+        <module>rabbitmq-consumer-retry</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
