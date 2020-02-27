@@ -6,11 +6,13 @@
     <modules>
         <module>rabbitmq-native-demo</module>
         <module>rabbitmq-basic-demo</module>
+        <module>rabbitmq-batch-consumer-demo</module>
+        <module>rabbitmq-batch-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.6.RELEASE</version>
+        <version>2.2.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.jjcc</groupId>

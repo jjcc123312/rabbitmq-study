@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-basic-demo/rabbitmq-basic-demo.iml" filepath="$PROJECT_DIR$/rabbitmq-basic-demo/rabbitmq-basic-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-batch-consumer-demo/rabbitmq-batch-consumer-demo.iml" filepath="$PROJECT_DIR$/rabbitmq-batch-consumer-demo/rabbitmq-batch-consumer-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-batch-demo/rabbitmq-batch-demo.iml" filepath="$PROJECT_DIR$/rabbitmq-batch-demo/rabbitmq-batch-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-native-demo/rabbitmq-native-demo.iml" filepath="$PROJECT_DIR$/rabbitmq-native-demo/rabbitmq-native-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-study.iml" filepath="$PROJECT_DIR$/rabbitmq-study.iml" />

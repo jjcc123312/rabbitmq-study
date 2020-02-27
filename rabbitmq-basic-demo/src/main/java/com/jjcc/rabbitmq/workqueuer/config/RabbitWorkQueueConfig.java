@@ -62,6 +62,7 @@ public class RabbitWorkQueueConfig {
             prefetchOneRabbitListenerContainerFactory(ConnectionFactory rabbitConnectionFactory) {
 
         SimpleRabbitListenerContainerFactory factory = new SimpleRabbitListenerContainerFactory();
+        // 设置预加载消息数。从而达到公平转发
         factory.setPrefetchCount(1);
         factory.setConnectionFactory(rabbitConnectionFactory);
         return factory;
