@@ -10,6 +10,7 @@
         <module>rabbitmq-batch-demo</module>
         <module>rabbitmq-batch-consumer-demo02</module>
         <module>rabbitmq-consumer-retry</module>
+        <module>rabbitmq-delayQueue-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
