@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+    listener:
+      type: simple            # 选择的 ListenerContainer 的类型。默认为 simple 类型
+      simple:
+        # 全局设置
+        concurrency: 2        # 每个 @ListenerContainer 的并发消费的线程数
+        max-concurrency: 10   # 每个 @ListenerContainer 允许的并发消费的线程数
