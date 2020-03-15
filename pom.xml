@@ -11,11 +11,12 @@
         <module>rabbitmq-batch-consumer-demo02</module>
         <module>rabbitmq-consumer-retry</module>
         <module>rabbitmq-delayQueue-demo</module>
+        <module>rabbitmq-delayQueue-plugins-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.1.RELEASE</version>
+        <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.jjcc</groupId>

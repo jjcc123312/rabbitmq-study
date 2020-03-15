@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-batch-demo/rabbitmq-batch-demo.iml" filepath="$PROJECT_DIR$/rabbitmq-batch-demo/rabbitmq-batch-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-consumer-retry/rabbitmq-consumer-retry.iml" filepath="$PROJECT_DIR$/rabbitmq-consumer-retry/rabbitmq-consumer-retry.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-delayQueue-demo/rabbitmq-delayQueue-demo.iml" filepath="$PROJECT_DIR$/rabbitmq-delayQueue-demo/rabbitmq-delayQueue-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-delayQueue-plugins-demo/rabbitmq-delayQueue-plugins-demo.iml" filepath="$PROJECT_DIR$/rabbitmq-delayQueue-plugins-demo/rabbitmq-delayQueue-plugins-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-native-demo/rabbitmq-native-demo.iml" filepath="$PROJECT_DIR$/rabbitmq-native-demo/rabbitmq-native-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-study.iml" filepath="$PROJECT_DIR$/rabbitmq-study.iml" />
     </modules>

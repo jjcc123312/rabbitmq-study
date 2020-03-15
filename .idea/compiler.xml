@@ -9,6 +9,7 @@
         <module name="rabbitmq-basic-demo" />
         <module name="rabbitmq-delayQueue-demo" />
         <module name="rabbitmq-batch-demo" />
+        <module name="rabbitmq-delayQueue-plugins-demo" />
         <module name="rabbitmq-native-demo" />
         <module name="rabbitmq-batch-consumer-demo02" />
         <module name="rabbitmq-consumer-retry" />
@@ -24,6 +25,7 @@
       <module name="rabbitmq-batch-demo (1)" target="1.8" />
       <module name="rabbitmq-consumer-retry" target="1.8" />
       <module name="rabbitmq-delayQueue-demo" target="1.8" />
+      <module name="rabbitmq-delayQueue-plugins-demo" target="1.8" />
       <module name="rabbitmq-native-demo" target="1.8" />
       <module name="rabbitmq-study" target="1.8" />
       <module name="rabbitmqnativedemo" target="1.8" />
@@ -38,6 +40,7 @@
       <module name="rabbitmq-batch-demo (1)" options="-parameters" />
       <module name="rabbitmq-consumer-retry" options="-parameters" />
       <module name="rabbitmq-delayQueue-demo" options="-parameters" />
+      <module name="rabbitmq-delayQueue-plugins-demo" options="-parameters" />
       <module name="rabbitmq-native-demo" options="" />
       <module name="rabbitmq-study" options="" />
       <module name="rabbitmqnativedemo" options="-parameters" />

@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+#    listener:
+#      simple:
+#        # 对应 RabbitProperties.ListenerRetry 类
+#        retry:
+#          enabled: true               # 开启消费重试机制。
+#          max-attempts: 3             # 最大重试次数，默认3次。包括了初始次数。
+#          initial-interval: 5000      # 重试间隔，默认1000毫秒。
+#          multiplier: 1.0             # 递乘的时间间隔

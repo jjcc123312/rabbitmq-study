@@ -13,16 +13,29 @@ import java.util.concurrent.CountDownLatch;
 @RunWith(SpringRunner.class)
 public class RabbitmqBatchDemoApplicationTests {
 
-    @Autowired
-    private RabbitProducer producer;
+//    @Autowired
+//    private RabbitProducer producer;
+//
+//    @Test
+//    public void contextLoads() throws InterruptedException {
+//        for (int i = 0; i < 1; i++) {
+//            producer.send();
+//        }
+//        System.out.println("消息发送完成！！！！！！！！！");
+//        new CountDownLatch(1).await();
+//    }
 
     @Test
-    public void contextLoads() throws InterruptedException {
-        for (int i = 0; i < 1; i++) {
-            producer.send();
-        }
-        System.out.println("消息发送完成！！！！！！！！！");
-        new CountDownLatch(1).await();
+    public void test() {
+        ThreadLocal<Integer> integerThreadLocal = new ThreadLocal<>();
+
+        integerThreadLocal.set(1);
+
+        System.out.println(integerThreadLocal.get());
+
+        integerThreadLocal.set(integerThreadLocal.get() + 1);
+
+        System.out.println(integerThreadLocal.get());
     }
 
 }
