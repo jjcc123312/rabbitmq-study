@@ -12,6 +12,8 @@
         <module>rabbitmq-consumer-retry</module>
         <module>rabbitmq-delayQueue-demo</module>
         <module>rabbitmq-delayQueue-plugins-demo</module>
+        <module>rabbitmq-concurrency-demo</module>
+        <module>rabbitmq-consumer-ack-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

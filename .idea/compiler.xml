@@ -13,7 +13,9 @@
         <module name="rabbitmq-native-demo" />
         <module name="rabbitmq-batch-consumer-demo02" />
         <module name="rabbitmq-consumer-retry" />
+        <module name="rabbitmq-consumer-ack-demo" />
         <module name="rabbitmq-batch-consumer-demo" />
+        <module name="rabbitmq-concurrency-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +25,8 @@
       <module name="rabbitmq-batch-consumer-demo02" target="1.8" />
       <module name="rabbitmq-batch-demo" target="1.8" />
       <module name="rabbitmq-batch-demo (1)" target="1.8" />
+      <module name="rabbitmq-concurrency-demo" target="1.8" />
+      <module name="rabbitmq-consumer-ack-demo" target="1.8" />
       <module name="rabbitmq-consumer-retry" target="1.8" />
       <module name="rabbitmq-delayQueue-demo" target="1.8" />
       <module name="rabbitmq-delayQueue-plugins-demo" target="1.8" />
@@ -38,6 +42,8 @@
       <module name="rabbitmq-batch-consumer-demo02" options="-parameters" />
       <module name="rabbitmq-batch-demo" options="-parameters" />
       <module name="rabbitmq-batch-demo (1)" options="-parameters" />
+      <module name="rabbitmq-concurrency-demo" options="-parameters" />
+      <module name="rabbitmq-consumer-ack-demo" options="-parameters" />
       <module name="rabbitmq-consumer-retry" options="-parameters" />
       <module name="rabbitmq-delayQueue-demo" options="-parameters" />
       <module name="rabbitmq-delayQueue-plugins-demo" options="-parameters" />
