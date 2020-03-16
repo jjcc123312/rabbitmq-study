@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+    listener:
+      type: simple            # 选择的 ListenerContainer 的类型。默认为 simple 类型
+      simple:
+        acknowledge-mode: manual    # 配置 consumer 手动提交，目的是防止报错后未正确处理消息而丢失消息。
+    publisher-confirm-type: simple  # 开启发送者的消息确认，simple：同步的confirm模式。
