@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="rabbitmq-basic-demo" />
         <module name="rabbitmq-delayQueue-demo" />
+        <module name="rabbitmq-confirm-async-demo" />
         <module name="rabbitmq-batch-demo" />
         <module name="rabbitmq-confirm-sync-demo" />
         <module name="rabbitmq-delayQueue-plugins-demo" />
@@ -27,6 +28,7 @@
       <module name="rabbitmq-batch-demo" target="1.8" />
       <module name="rabbitmq-batch-demo (1)" target="1.8" />
       <module name="rabbitmq-concurrency-demo" target="1.8" />
+      <module name="rabbitmq-confirm-async-demo" target="1.8" />
       <module name="rabbitmq-confirm-sync-demo" target="1.8" />
       <module name="rabbitmq-consumer-ack-demo" target="1.8" />
       <module name="rabbitmq-consumer-retry" target="1.8" />
@@ -45,6 +47,7 @@
       <module name="rabbitmq-batch-demo" options="-parameters" />
       <module name="rabbitmq-batch-demo (1)" options="-parameters" />
       <module name="rabbitmq-concurrency-demo" options="-parameters" />
+      <module name="rabbitmq-confirm-async-demo" options="-parameters" />
       <module name="rabbitmq-confirm-sync-demo" options="-parameters" />
       <module name="rabbitmq-consumer-ack-demo" options="-parameters" />
       <module name="rabbitmq-consumer-retry" options="-parameters" />

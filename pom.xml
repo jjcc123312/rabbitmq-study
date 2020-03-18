@@ -15,6 +15,7 @@
         <module>rabbitmq-concurrency-demo</module>
         <module>rabbitmq-consumer-ack-demo</module>
         <module>rabbitmq-confirm-sync-demo</module>
+        <module>rabbitmq-confirm-async-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
